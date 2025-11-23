@@ -1,19 +1,21 @@
 ## 🛠️ SETUP GUIDE
 
-A step-by-step guide to installing EasyEffects and loading the custom Virtual Space Atmos audio profile on Linux.
+A step-by-step guide to installing EasyEffects and loading the custom Lunar Cinematic FX audio profile on Linux.
 
 ---
 
 ### ⚠️ DISCLAIMER
 
-Virtual Space Atmos is an independent, non-commercial project and is **not affiliated with, endorsed by, or associated with Dolby Laboratories**.  
-This project is entirely free and was created to partially compensate for the lack of Dolby Atmos support on Linux systems.  
+Lunar Cinematic FX is an independent and non-commercial project.  
+It is entirely free and was created to offer a cinematic-style audio enhancement on Linux systems.
 
-Virtual Space Atmos is an **experimental audio preset** designed to enhance sound spatialization on Linux using EasyEffects.  
-We take **no responsibility** for any issues, malfunctions, or damages resulting from the use of the instructions provided in this guide.  
+Lunar Cinematic FX is an experimental audio preset designed to boost low-frequency impact, strengthen overall sound quality, and maintain clear, prominent vocals.
+It also provides a natural sense of spatial depth, enhancing immersion without relying on complex surround effects.
 
-- Some steps or behaviors may vary slightly depending on the Linux distribution, desktop environment, or system configuration.  
-- Additionally, the final effect of Virtual Space Atmos may differ, either slightly or significantly, based on the audio hardware, drivers, and the headphones or speakers in use.
+We take no responsibility for any issues, malfunctions, or damages resulting from the use of the instructions provided in this guide.
+
+- Some steps or behaviors may vary depending on your Linux distribution, desktop environment, or system configuration.
+- The final audio result may also differ, slightly or significantly, based on hardware, drivers, and the headphones or speakers you use.
 
 ---
 
@@ -58,7 +60,7 @@ Headphones: Sony MDR-ZX110 (On-Ear, wired; affordable but well-balanced model)
 
 ## 📋 REQUIREMENTS
 
-To make Virtual Space Atmos work properly, you need the following setup:
+To make Lunar Cinematic FX work properly, you need the following setup:
 
 ### 1️⃣ PipeWire  
 - **Required as your audio server**  
@@ -123,7 +125,7 @@ Available via dnf (not tested yet).
 
 After installing additional plugin packages (like `lsp-plugins`, `calf`, `zam-plugins`, etc.), you may notice **dozens of new icons** appear in the **Multimedia** section of your application menu (it only happened on one of the PCs used for testing).  
 
-These are standalone plugin UIs. **You don’t need to launch them manually** to use Virtual Space Atmos with EasyEffects.
+These are standalone plugin UIs. **You don’t need to launch them manually** to use Lunar Cinematic FX with EasyEffects.
 
 ---
 
@@ -144,9 +146,9 @@ These entries will disappear from your app menu, but all plugins will still work
 
 ## ⬇️ IMPORT THE PROFILE
 
-1. Download the latest **`VIRTUAL_SPACE_ATMOS.json`**.  
+1. Download the latest **`LUNAR_CINEMATIC_FX.json`**.  
 2. Open **EasyEffects**, go to **Profiles** and click **Import**.  
-3. Load **`VIRTUAL_SPACE_ATMOS.json`**.  
+3. Load **`LUNAR_CINEMATIC_FX.json`**.  
 4. Activate the preset and enjoy!
 
 ---
@@ -169,7 +171,7 @@ See the file for details.
 ## 🙌 Acknowledgements
 
 - Developed with **EasyEffects** on Linux  
-- Inspired by the need for a **free, open-source** alternative to proprietary Dolby Atmos solutions  
+- Born from the desire to bring a cinematic audio experience to Linux through a free and open-source preset
 
 ---
 
@@ -182,10 +184,10 @@ Open an issue or contribute directly via **GitHub Issues**.
 
 ## About Use
 
-- Klod Cripta – Founder of the Virtual Space Atmos project.
+- Klod Cripta – Founder of the Lunar Cinematic FX project.
 He conceived and launched the project, establishing the foundation for the spatial sound design and adjusting the bass to achieve a powerful, deep, and dynamic low-end, capable of delivering a truly cinematic and immersive experience. He also ensured precise frequency balancing, keeping the bass from overpowering the mids and highs.
 
 - Davide Cappiello – Sound Engineer.
-A professional in the audio field, he optimized and fine-tuned the virtualization aspect, improving and refining the initial settings. His expertise maximized the overall sound quality, making Virtual Space Atmos stable, realistic, and suitable for a wide range of multimedia content.
+A professional in the audio field, he optimized and fine-tuned the spatial aspect, improving and refining the initial settings. His expertise maximized the overall sound quality, making Lunar Cinematic FX stable, realistic, and suitable for a wide range of multimedia content.
 
 ---
