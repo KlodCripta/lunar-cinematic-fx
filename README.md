@@ -1,5 +1,9 @@
 # Lunar Cinematic FX
 
+<p align="center">
+  <img src="lunar_cinematic_fx_locandina.png" width="400">
+</p>
+
 [![Website](https://img.shields.io/badge/Website-Lunar%20Cinematic%20FX-black?style=for-the-badge)](https://soloist.ai/lunarcinematicfx)
 [![Latest Release](https://img.shields.io/github/release/KlodCripta/lunar-cinematic-fx.svg?style=for-the-badge)](https://github.com/KlodCripta/lunar-cinematic-fx/releases/latest)[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 [![Linux](https://img.shields.io/badge/Linux-Compatible-green?style=for-the-badge&logo=linux)]()
