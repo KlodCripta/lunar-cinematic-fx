@@ -1,7 +1,7 @@
 # Lunar Cinematic FX
 
 <p align="center">
-  <img src="lunar_cinematic_fx_locandina.png" width="400">
+  <img src="lunar_cinematic_fx_locandina.png" width="600">
 </p>
 
 [![Website](https://img.shields.io/badge/Website-Lunar%20Cinematic%20FX-black?style=for-the-badge)](https://soloist.ai/lunarcinematicfx)
