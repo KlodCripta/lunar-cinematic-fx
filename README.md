@@ -1,14 +1,18 @@
+<p align="center">
 # Lunar Cinematic FX
+</p>
 
 <p align="center">
   <img src="lunar_cinematic_fx_locandina.png" width="600">
 </p>
 
+<p align="center">
 [![Website](https://img.shields.io/badge/Website-Lunar%20Cinematic%20FX-black?style=for-the-badge)](https://soloist.ai/lunarcinematicfx)
 [![Latest Release](https://img.shields.io/github/release/KlodCripta/lunar-cinematic-fx.svg?style=for-the-badge)](https://github.com/KlodCripta/lunar-cinematic-fx/releases/latest)[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 [![Linux](https://img.shields.io/badge/Linux-Compatible-green?style=for-the-badge&logo=linux)]()
 [![EasyEffects](https://img.shields.io/badge/EasyEffects-Preset-purple?style=for-the-badge)]()
 [![Audio](https://img.shields.io/badge/Audio-Cinematic%20Preset-red?style=for-the-badge)]()
+</p>
 
 A custom EasyEffects preset designed to deliver deep cinematic bass,
 clearer vocals and natural immersive depth on Linux.
