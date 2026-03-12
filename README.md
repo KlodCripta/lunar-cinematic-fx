@@ -5,8 +5,7 @@
 <h1 align="center">Lunar Cinematic FX</h1>
 
 <p align="center">
-  A cinematic audio preset for EasyEffects on Linux, designed to deliver deep cinematic bass, clearer vocals and natural immersive depth on Linux.
-
+A cinematic EasyEffects preset delivering deep bass, clear vocals and immersive spatial depth.
 </p>
 
 <p align="center">
