@@ -1,4 +1,18 @@
-## Setup Guide
+# Lunar Cinematic FX
+
+[![Website](https://img.shields.io/badge/Website-Lunar%20Cinematic%20FX-black?style=for-the-badge)](https://soloist.ai/lunarcinematicfx)
+[![Release](https://img.shields.io/github/v/release/KlodCripta/lunar-cinematic-fx?style=for-the-badge)](https://github.com/KlodCripta/lunar-cinematic-fx/releases)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
+[![Linux](https://img.shields.io/badge/Linux-Compatible-green?style=for-the-badge&logo=linux)]()
+[![EasyEffects](https://img.shields.io/badge/EasyEffects-Preset-purple?style=for-the-badge)]()
+[![Audio](https://img.shields.io/badge/Audio-Cinematic%20Preset-red?style=for-the-badge)]()
+
+A custom EasyEffects preset designed to deliver deep cinematic bass,
+clearer vocals and natural immersive depth on Linux.
+
+---
+
+## Setip Guide
 
 This guide explains how to install EasyEffects and load the **Lunar Cinematic FX** audio profile on Linux.
 
@@ -175,6 +189,19 @@ Concept design, bass tuning, frequency balancing and overall sound shaping.
 
 **Davide Cappiello – Sound Engineer**  
 Refined spatial processing and optimized the preset for stability and realism across different listening scenarios.
+
+---
+
+## Links
+
+Project website  
+https://soloist.ai/lunarcinematicfx
+
+Support  
+lunarcinematicfx.support@proton.me
+
+Author contact  
+klodcripta@linux.it
 
 ---
 
