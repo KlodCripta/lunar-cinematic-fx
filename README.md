@@ -1,193 +1,185 @@
-## 🛠️ SETUP GUIDE
+## Setup Guide
 
-A step-by-step guide to installing EasyEffects and loading the custom Lunar Cinematic FX audio profile on Linux.
-
----
-
-### ⚠️ DISCLAIMER
-
-Lunar Cinematic FX is an independent and non-commercial project.  
-It is entirely free and was created to offer a cinematic-style audio enhancement on Linux systems.
-
-Lunar Cinematic FX is an experimental audio preset designed to boost low-frequency impact, strengthen overall sound quality, and maintain clear, prominent vocals.
-It also provides a natural sense of spatial depth, enhancing immersion without relying on complex surround effects.
-
-We take no responsibility for any issues, malfunctions, or damages resulting from the use of the instructions provided in this guide.
-
-- Some steps or behaviors may vary depending on your Linux distribution, desktop environment, or system configuration.
-- The final audio result may also differ, slightly or significantly, based on hardware, drivers, and the headphones or speakers you use.
+This guide explains how to install EasyEffects and load the **Lunar Cinematic FX** audio profile on Linux.
 
 ---
 
-## 🎧 TESTED SETUP
+## Disclaimer
 
-## ASUS Zenbook 14
+Lunar Cinematic FX is an independent, non-commercial project.
 
-CPU: AMD Ryzen 5
-Operating System: Arch Linux - KDE Plasma 6
+It is a custom EasyEffects preset designed to enhance stereo audio by increasing bass impact, improving clarity, and adding a natural sense of spatial depth. The goal is to create a cinematic listening experience while preserving balanced mids and highs.
 
-Headphones: Sony MDR-ZX110 (On-Ear, wired; affordable but well-balanced model) and Audio-Technica ATH-M20x (Over-Ear, wired; professional monitor headphones)
+This preset is experimental. Audio results may vary depending on hardware, drivers, and headphones.
 
-
-## Microtech R5
-
-CPU: AMD Ryzen 5
-Operating System: Arch Linux - KDE Plasma 6
-Headphones: Sony MDR-ZX110 (On-Ear, wired; affordable but well-balanced model) and Audio-Technica ATH-M20x (Over-Ear, wired; professional monitor headphones)
-
-
-## Lenovo V15
-
-CPU: AMD Ryzen 3
-Operating System: EndeavourOS - KDE Plasma 6
-Headphones: Sony MDR-ZX110 (On-Ear, wired; affordable but well-balanced model) and Audio-Technica ATH-M20x (Over-Ear, wired; professional monitor headphones)
-
-
-## HP 250 G7
-
-CPU: Intel Core i5-1035G1
-Operating System: EndeavourOS - GNOME 48.4
-Headphones: Sony MDR-ZX110 (On-Ear, wired; affordable but well-balanced model) and Audio-Technica ATH-M20x (Over-Ear, wired; professional monitor headphones)
-
-
-## Lenovo V15-IGL
-
-CPU: Intel Celeron N4020
-Operating System: Ubuntu 24.04 LTS - GNOME 46
-Headphones: Sony MDR-ZX110 (On-Ear, wired; affordable but well-balanced model)
+The author takes no responsibility for issues or damage resulting from the use of this preset or the instructions provided in this guide.
 
 ---
 
-## 📋 REQUIREMENTS
+## Tested Setup
 
-To make Lunar Cinematic FX work properly, you need the following setup:
+### ASUS Zenbook 14
+CPU: AMD Ryzen 5  
+OS: Arch Linux – KDE Plasma 6  
+Headphones: Sony MDR-ZX110 / Audio-Technica ATH-M20x
 
-### 1️⃣ PipeWire  
-- **Required as your audio server**  
-> ⚠️ This project will **not work with PulseAudio**.
+### Microtech R5
+CPU: AMD Ryzen 5  
+OS: Arch Linux – KDE Plasma 6  
+Headphones: Sony MDR-ZX110 / Audio-Technica ATH-M20x
 
-### 2️⃣ EasyEffects  
-- The main software used to load and manage the custom audio preset.  
-- Install it from your distro’s package manager (e.g., `pacman`, `apt`, `dnf`).
+### Lenovo V15
+CPU: AMD Ryzen 3  
+OS: EndeavourOS – KDE Plasma 6  
+Headphones: Sony MDR-ZX110 / Audio-Technica ATH-M20x
 
-### 3️⃣ Plugins (optional but highly recommended)
+### HP 250 G7
+CPU: Intel Core i5-1035G1  
+OS: EndeavourOS – GNOME 48.4  
+Headphones: Sony MDR-ZX110 / Audio-Technica ATH-M20x
 
-Some EasyEffects modules may require additional LADSPA / LV2 plugin packages.  
-
-**On Arch-based systems, make sure to install:**  
-- `lsp-plugins`  
-- `calf`  
-- `zam-plugins`  
-- `mda.lv2`  
-- `lilv`  
-- `lv2`  
-- `lv2lint` (for full LV2 support)
-
-### 4️⃣ Headphones connected  
-This preset is designed and optimized exclusively for **stereo headphones**.  
-
-Please make sure:  
-- Headphones are plugged in **before launching EasyEffects**.  
-- The output profile is set to **"Headphones (Stereo)"** in your audio settings.  
-
-### 5️⃣ Enable virtual device (optional)  
-If you're using multiple devices or audio interfaces (e.g., USB DACs), make sure the correct sink is selected inside EasyEffects.
+### Lenovo V15-IGL
+CPU: Intel Celeron N4020  
+OS: Ubuntu 24.04 LTS – GNOME 46  
+Headphones: Sony MDR-ZX110
 
 ---
 
-## 📥 INSTALLATION
+## Requirements
 
-## Arch-based system
+To use Lunar Cinematic FX correctly your system should include the following components.
 
-EasyEffects and all required plugins can be installed from the official repositories (not AUR).
-Run the following command:
+### PipeWire
 
+PipeWire must be used as the audio server.
+
+PulseAudio is not supported.
+
+### EasyEffects
+
+EasyEffects is required to load and manage the preset.
+
+Install it from your distribution repositories.
+
+### Plugins (recommended)
+
+Some EasyEffects modules rely on LADSPA or LV2 plugins.
+
+On Arch-based systems install:
+
+lsp-plugins
+calf
+zam-plugins
+mda.lv2
+lv2
+lilv
+lv2lint
+
+
+### Headphones
+
+This preset was designed specifically for **stereo headphones**.
+
+Before launching EasyEffects:
+
+- connect your headphones
+- ensure the audio output profile is set to **Headphones (Stereo)**
+
+### Virtual device (optional)
+
+If you use multiple audio interfaces or USB DACs, verify that the correct output sink is selected inside EasyEffects.
+
+---
+
+## Installation
+
+### Arch / Arch-based distributions
+
+Install EasyEffects and the recommended plugins from the official repositories:
+```bash
 sudo pacman -S easyeffects lsp-plugins calf zam-plugins mda.lv2 lv2 lilv
+```
 
-Easyeffects comes from the extra repo, fully official.
-No need to enable AUR or install via Flatpak/Snap.
-
-## Ubuntu / Mint / Debian
-
-sudo apt update -y && sudo apt upgrade -y
+### Ubuntu / Mint / Debian
+```bash
+sudo apt update -y
+sudo apt upgrade -y
 
 sudo apt install easyeffects
-
 sudo apt install calf-plugins x42-plugins
+```
 
-## Fedora
+### Fedora
 
-Available via dnf (not tested yet).
-
----
-
-### 🛈 Note for Arch / Arch-based users with KDE Plasma  
-
-After installing additional plugin packages (like `lsp-plugins`, `calf`, `zam-plugins`, etc.), you may notice **dozens of new icons** appear in the **Multimedia** section of your application menu (it only happened on one of the PCs used for testing).  
-
-These are standalone plugin UIs. **You don’t need to launch them manually** to use Lunar Cinematic FX with EasyEffects.
+Available through `dnf`.  
+Not fully tested yet.
 
 ---
 
-### Recommended solution: hide these entries from the menu  
+## Note for KDE Plasma Users
 
-**Quick method (KDE Plasma):**
+After installing plugin packages such as `lsp-plugins`, `calf`, or `zam-plugins`, you may notice many additional icons appearing in the **Multimedia** section of the application menu.
 
-1. Right-click on the **Start Menu** and select **Edit Applications** (This will open **KMenuEdit**).
-2. Navigate to the **Multimedia** category.
-3. For each unwanted item:  
-   - Select it  
-   - Uncheck **"Show in menus"**  
-4. Save and exit  
+These are standalone plugin interfaces and are not required to use the preset.
 
-These entries will disappear from your app menu, but all plugins will still work properly inside EasyEffects.
+If desired, they can be hidden using **KMenuEdit**.
 
 ---
 
-## ⬇️ IMPORT THE PROFILE
+## Import the Profile
 
-1. Download the latest **`LUNAR_CINEMATIC_FX.json`**.  
-2. Open **EasyEffects**, go to **Profiles** and click **Import**.  
-3. Load **`LUNAR_CINEMATIC_FX.json`**.  
-4. Activate the preset and enjoy!
-
----
-
-## 🧩 Recommended Use
-
-- Works best with **headphones**  
-- Ideal for **movies and series**, but can also enhance music  
-- Can be toggled **ON/OFF** in EasyEffects during playback  
+1. Download `LUNAR_CINEMATIC_FX.json`
+2. Open **EasyEffects**
+3. Go to **Profiles**
+4. Click **Import**
+5. Select the JSON file
+6. Activate the preset
 
 ---
 
-## 📜 License
+## Recommended Use
 
-This project is licensed under the **MIT License**.  
-See the file for details.
+The preset works best with stereo headphones.
 
----
+It is particularly suited for:
 
-## 🙌 Acknowledgements
+- movies
+- TV series
+- gaming
+- immersive media playback
 
-- Developed with **EasyEffects** on Linux  
-- Born from the desire to bring a cinematic audio experience to Linux through a free and open-source preset
-
----
-
-## 🤝 Contributions
-
-Suggestions, improvements, and pull requests are welcome!  
-Open an issue or contribute directly via **GitHub Issues**.
+You can toggle the preset on or off in EasyEffects while audio is playing.
 
 ---
 
-## About Use
+## License
 
-- Klod Cripta – Founder of the Lunar Cinematic FX project.
-He conceived and launched the project, establishing the foundation for the spatial sound design and adjusting the bass to achieve a powerful, deep, and dynamic low-end, capable of delivering a truly cinematic and immersive experience. He also ensured precise frequency balancing, keeping the bass from overpowering the mids and highs.
+This project is released under the **MIT License**.
 
-- Davide Cappiello – Sound Engineer.
-A professional in the audio field, he optimized and fine-tuned the spatial aspect, improving and refining the initial settings. His expertise maximized the overall sound quality, making Lunar Cinematic FX stable, realistic, and suitable for a wide range of multimedia content.
+See the `LICENSE` file for details.
 
 ---
+
+## Acknowledgements
+
+Developed using **EasyEffects** on Linux.
+
+The project was created to provide a cinematic-style audio experience on Linux using a free and open preset.
+
+---
+
+## Project Credits
+
+**Klod Cripta – Project Creator**  
+Concept design, bass tuning, frequency balancing and overall sound shaping.
+
+**Davide Cappiello – Sound Engineer**  
+Refined spatial processing and optimized the preset for stability and realism across different listening scenarios.
+
+---
+
+## Contributions
+
+Suggestions, improvements and pull requests are welcome.
+
+You can open an issue or contribute directly through GitHub.
