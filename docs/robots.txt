@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://klodcripta.github.io/lunar-cinematic-fx/sitemap.xml
