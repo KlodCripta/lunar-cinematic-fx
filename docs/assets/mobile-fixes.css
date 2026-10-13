@@ -1,0 +1,84 @@
+/* Lunar Cinematic FX: responsive corrections for the Solo static export.
+   Desktop styles are intentionally left untouched. */
+@media (max-width: 991.98px) {
+  /* Solo's zero-padding containers and Bootstrap's negative row gutters
+     otherwise push readable text beyond the left edge of the viewport. */
+  #Introduction > .container,
+  #Article > .container,
+  #FrequentlyAskedQuestions > .container,
+  #Services > .container,
+  #Team > .container,
+  #CustomerReviews > .container,
+  #Scheduling > .container,
+  #Footer > .container {
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+  }
+
+  #Introduction .row,
+  #Article .row,
+  #FrequentlyAskedQuestions .row,
+  #Services .row,
+  #Team .row,
+  #CustomerReviews .row,
+  #Scheduling .row,
+  #Footer .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    --bs-gutter-x: 0px !important;
+  }
+
+  #Introduction .row > *,
+  #Article .row > *,
+  #Services .row > *,
+  #Team .row > * {
+    min-width: 0;
+  }
+
+  #Introduction h1.mobile-res,
+  #Article h2.mobile-res {
+    font-size: clamp(1.8rem, 8vw, 2.1rem) !important;
+    line-height: 1.22 !important;
+    overflow-wrap: break-word;
+  }
+
+  #Services h2 {
+    font-size: clamp(1.5rem, 6.5vw, 1.85rem) !important;
+    line-height: 1.25 !important;
+    overflow-wrap: break-word;
+  }
+
+  #Services .feature {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  /* Show the full EasyEffects screenshots rather than zooming/cropping
+     important controls on narrow screens. */
+  #Services .feature .fwo0e2n {
+    padding: 0 !important;
+    height: auto !important;
+    aspect-ratio: auto !important;
+  }
+
+  #Services .feature .fwo0e2n img {
+    position: static !important;
+    display: block;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+    object-fit: contain !important;
+    transform: none !important;
+  }
+
+  #Services .feature .f1konfi9 {
+    padding-right: 0;
+  }
+
+  #Services .feature .f1konfi9 .pe-4 {
+    padding-right: 0 !important;
+  }
+
+  img, video { max-width: 100%; }
+}
