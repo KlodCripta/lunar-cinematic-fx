@@ -9,7 +9,7 @@ A cinematic EasyEffects preset delivering deep bass, clear vocals and immersive 
 </p>
 
 <p align="center">
-  <a href="https://soloist.ai/lunarcinematicfx">
+  <a href="https://klodcripta.github.io/lunar-cinematic-fx/">
     <img src="https://img.shields.io/badge/Website-Lunar%20Cinematic%20FX-black?style=for-the-badge" alt="Website">
   </a>
   <a href="https://github.com/KlodCripta/lunar-cinematic-fx/releases/latest">
@@ -208,7 +208,7 @@ Refined spatial processing and optimized the preset for stability and realism ac
 ## Links
 
 Project website  
-https://soloist.ai/lunarcinematicfx
+https://klodcripta.github.io/lunar-cinematic-fx/
 
 Support  
 lunarcinematicfx.support@proton.me
